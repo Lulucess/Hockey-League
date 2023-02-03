@@ -1,0 +1,261 @@
+* {padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   background-color: rgb(240, 240, 240);
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    padding-top:  15px;
+    margin-left: 20px;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 20px;
+
+}
+
+nav a {
+    margin-top: 50px;
+    font-size: 20px;
+    text-decoration: none;
+    color:#419188 ;
+    font-weight: bold;
+}
+
+#home {
+    color:#03534a;
+}
+
+#about {
+    color:#03534a;
+}
+
+#contact {
+    color:#03534a;
+}
+
+#info {
+    color:#03534a;
+}
+
+#rules {
+    color:#03534a;
+}
+
+.banner {
+    width: 1800px;
+    height: 700px;
+    padding: 10px;
+    margin-left: 50px;
+    border: 1px dashed #f8e12e;
+    object-fit: cover;
+    
+}
+
+h1 {
+    margin: 50PX;
+    padding: 15px;
+    text-align: center;
+    font-size: 60px;
+    color: #419188;
+    text-shadow: 2px 2px 5px #acaca7;
+    
+
+}
+
+h2 {
+    text-align: center;
+    padding: 15px;
+    margin-top: 15PX;
+    color: rgb(111, 111, 112);
+}
+
+h3 {
+    padding:  10px;
+    
+}
+
+.iconos-about {
+    width: 30px;
+    height: 30px;        
+}
+
+.container-flex {
+    height: 300PX;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.caja1,
+.caja2, 
+.caja3 {
+width: 300px;
+height: 200px;
+border: 3px solid #a7e0d9;
+margin-top: 25px;
+text-align: center;
+padding: 60px;
+border-radius: 25px;
+
+}
+
+.imagenes_index {
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.imag-in {
+    width: 500px;
+    height: 350px;
+}
+
+
+.about-mdhl{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about {
+    text-align: center;
+    width: 900px;
+    height: 250px;
+    padding: 20px;
+    margin-bottom: 30px;
+    line-height: 1.8;
+    border: 1px solid #f8e12e;
+    
+}
+
+.contact-page {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.contact-1,
+.contact-2 {
+    width: 500px;
+    height: 350px;
+    margin-top: 25px;
+    text-align: center;
+    padding: 60px;
+    
+
+}
+
+.img-contact {
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    height: 600px;
+}
+
+.contact-icono {
+    padding: 10px;
+    margin: 5px;
+}
+
+th, td {
+    border-collapse: collapse;
+    border: 1px solid black;
+    
+}
+
+th{
+    background-color: #6bd3c7;
+}
+
+table {
+    margin: auto;
+    width: 900px;
+    height: 500px;
+    text-align: center;
+    padding: 25px;
+    border-collapse: collapse;
+    
+}
+
+.games {
+    text-align: center;
+    text-decoration: underline;
+    font-style: oblique;
+    margin-bottom: 50px;
+}
+
+.list{
+    list-style-position: inside;
+    width: 800px;
+    margin: auto;
+    line-height: 2.5;
+    margin-bottom: 50px;
+}
+
+dt{
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+dd{
+    text-indent: 50px;
+}
+
+.letter {
+    list-style-type: lower-alpha;
+    
+}
+
+.list-u {
+    list-style-type: circle;
+}
+
+.list-bold {
+    font-weight: bold;
+}
+
+.game-list {
+    list-style-position: inside;
+    list-style-type: none;
+    width: 900px;
+    margin: auto;
+    line-height: 3.0;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.imagen-game {
+    display: flex;
+    justify-content: center;
+}
+
+.img-game {
+    width: 1000px;
+    height: 500px;
+    padding: 50px;
+    margin: 30px;
+}
+
+footer p {
+    padding-top: 23px;
+    color: #419188;
+    text-align: center;
+    font-weight: bold;
+    height: 90px;
+    background-color: #f8e12e;
+}
